@@ -18,7 +18,7 @@ Lorem
 **Alejandro Pos Díaz**
 
 * [LinkedIn](https://www.linkedin.com/in/XX)
-* [Behance](https://www.behance.net/XXX)
+
 * [Porfolio web](https://XXXX.XXX/)
 
 ## Ver ejemplo en vivo 
@@ -26,7 +26,7 @@ Lorem
 
  
 ## Contratación
-Si quieres contratarme puedes escribirme a ana.ploufm@gmail.com para consultas.
+Si quieres contratarme puedes escribirme a alejandro.pos.d@gmail.com para consultas.
 
 ## Licencia 📄
 MIT Public License v3.0
