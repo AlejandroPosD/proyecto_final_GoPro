@@ -1,4 +1,4 @@
-# Título del proyecto
+# Proyecto final GoPro
 
 ![Texto Alternativo](https://rutaimg.jpg)
 
