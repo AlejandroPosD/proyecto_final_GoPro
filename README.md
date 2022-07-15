@@ -15,7 +15,7 @@ Lorem
 
 
 ## Autor ✒️
-**Ana Plou Fernández-Mota**
+**Alejandro Pos Díaz**
 
 * [LinkedIn](https://www.linkedin.com/in/XX)
 * [Behance](https://www.behance.net/XXX)
