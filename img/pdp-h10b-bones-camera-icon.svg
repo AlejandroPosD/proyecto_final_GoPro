@@ -1,0 +1,20 @@
+<svg width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_749_13114" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="65" height="65">
+<rect x="0.90625" y="0.783203" width="62.5" height="62.5" fill="#C4C4C4" stroke="#111111" stroke-width="1.5"/>
+</mask>
+<g mask="url(#mask0_749_13114)">
+<mask id="mask1_749_13114" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="7" y="7" width="51" height="51">
+<rect x="7.03125" y="7.0332" width="50" height="50" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask1_749_13114)">
+<mask id="mask2_749_13114" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="1" y="2" width="61" height="61">
+<rect x="1.33594" y="2.0332" width="60" height="60" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask2_749_13114)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24.1762 33.3671C24.1762 32.327 23.4719 31.6333 22.4167 31.6333H15.3767C14.3206 31.6333 13.6162 32.327 13.6162 33.3671V40.3004C13.6162 41.3396 14.3206 42.0333 15.3767 42.0333H22.4167C23.4719 42.0333 24.1762 41.3396 24.1762 40.3004V33.3671Z" stroke="#111111" stroke-width="1.5"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M43.0962 22.0507C43.3161 22.4969 43.5359 22.9424 43.5359 23.3878V39.8786C43.5359 40.3249 43.3161 40.7712 43.0962 41.2157L39.576 45.8961C38.9156 46.7878 38.0361 47.2332 36.936 47.2332H11.6363C9.87664 47.2332 8.33594 45.6734 8.33594 43.8908V19.3764C8.33594 17.5939 9.87664 16.0332 11.6363 16.0332H36.936C38.0361 16.0332 38.9156 16.4795 39.576 17.3712L43.0962 22.0507Z" stroke="#111111" stroke-width="1.5"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M43.5361 23.8332H45.9955C45.9955 23.8332 46.9137 23.808 47.664 22.7497L48.8554 21.2331C49.8077 20.1496 51.2372 19.5 52.6667 19.5C53.3819 19.5 54.0961 19.9322 54.0961 20.5827V44.4165C54.0961 45.0669 53.62 45.5 52.9048 45.5C51.4753 45.5 50.0467 44.8504 49.0934 43.7669L47.9021 42.2503C47.2579 41.1618 45.9955 41.1668 45.9955 41.1668H43.5361V23.8332Z" stroke="#111111" stroke-width="1.5"/>
+</g>
+</g>
+</g>
+</svg>

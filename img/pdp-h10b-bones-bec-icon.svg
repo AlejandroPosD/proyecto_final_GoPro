@@ -1,0 +1,15 @@
+<svg width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="11.6562" y="10.0332" width="44" height="44" stroke="#111111" stroke-width="1.3"/>
+<path d="M24.6562 12.0332V22.0332H14.6562" stroke="#111111" stroke-width="1.3"/>
+<path d="M11.6562 40.0332L17.6563 40.0332L17.6563 50.0332" stroke="#111111" stroke-width="1.3"/>
+<path d="M55.6562 36.0332L48.6563 36.0332L48.6563 50.0332" stroke="#111111" stroke-width="1.3"/>
+<path d="M52.6563 27.0332L49.6562 27.0332L49.6562 13.0332" stroke="#111111" stroke-width="1.3"/>
+<path d="M25.1562 29.5332H11.6562" stroke="#111111" stroke-width="1.3"/>
+<circle cx="27.1562" cy="29.5332" r="1.85" stroke="#111111" stroke-width="1.3"/>
+<path d="M25.1562 40.5332L25.1562 54.0332" stroke="#111111" stroke-width="1.3"/>
+<circle cx="25.1562" cy="38.5332" r="1.85" transform="rotate(-90 25.1562 38.5332)" stroke="#111111" stroke-width="1.3"/>
+<path d="M43.1562 29.5332L43.1563 43.0332L32.1562 54.0332" stroke="#111111" stroke-width="1.3"/>
+<circle cx="43.1562" cy="27.5332" r="1.85" transform="rotate(-90 43.1562 27.5332)" stroke="#111111" stroke-width="1.3"/>
+<path d="M35.1562 34.5332L35.1563 21.0332L46.1562 10.0332" stroke="#111111" stroke-width="1.3"/>
+<circle cx="35.1562" cy="36.5332" r="1.85" transform="rotate(90 35.1562 36.5332)" stroke="#111111" stroke-width="1.3"/>
+</svg>

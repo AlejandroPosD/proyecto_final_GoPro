@@ -1,0 +1,31 @@
+//Clases
+.flex {
+    display: flex;
+}
+.jevenly {
+    justify-content: space-evenly;
+}
+.flwrap{
+    flex-wrap: wrap;
+}
+.jbetween {
+    justify-content: space-between;
+}
+.acenter {
+    align-items: center;
+}
+.astart {
+    align-items: flex-start;
+}
+.jcenter {
+    justify-content: center;
+}
+.jaround {
+    justify-content: space-around;
+}
+.jend {
+    justify-content:flex-end;
+}
+.fdcolumn {
+    flex-direction: column;
+}

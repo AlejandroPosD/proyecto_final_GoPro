@@ -1,0 +1,17 @@
+$menu: halbfett;
+$textos: buch;
+$titulo: halbfett;
+$logo: neuro;
+
+@mixin desktop {
+    @media (min-width: 769px) {@content;}
+}
+@mixin intermedio {
+    @media (max-width: 1005px) {@content;}
+}
+@mixin tablet {
+    @media (max-width: 768px) {@content;}
+}
+@mixin movil {
+    @media (max-width: 360px) {@content;}
+}

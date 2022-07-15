@@ -1,0 +1,307 @@
+@import "variables";
+//nav
+
+nav {
+    @include intermedio {
+        position: fixed;
+    }
+
+    .blanco {
+        display: none;
+        @include intermedio {
+            display: block;
+            background-color: black;
+        
+        }
+    }
+    .logo {
+        display: block;
+        @include intermedio {
+            display: none;
+        }
+    }
+    .lupa-responsive {
+        display: none;
+        input{
+            border-radius: 15px;
+        }
+        @include intermedio {
+            display: flex;
+        }
+    }
+    .lupa {
+        @include intermedio {
+            display: none;
+        }
+    }
+    .espacios {
+        @include intermedio {
+            padding:0;
+        }
+    }
+    .cabecera {
+        @include intermedio {
+            justify-content: space-around;
+            background-color: black;
+            
+            
+        }
+        .iconos {
+            @include intermedio {
+                justify-content: flex-end;
+                
+                
+            }
+        }
+    }
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 5555555555;
+   .burger {
+       font-size: 20px;
+       display: none;
+       position: relative;
+       i {
+           top: -11px;
+           left: 0;
+           opacity: 1;
+           position: absolute;
+           transition: 0.6s;
+       }
+       .activo {
+           opacity: 0;
+       }
+       @include intermedio {
+        display: block;
+        color: white;
+
+       }
+   }
+    > div {
+        position: relative;
+        padding: 0 40px;
+
+    }
+    .lupa, .carrito {
+        padding:7px 11px;
+        @include intermedio {
+            margin: 0;
+            padding: 0;
+        }
+    }
+    .lupa:hover {
+        background-color: rgba(255, 255, 255, 0.313);
+        border-radius: 150px;
+    }
+    .carrito:hover {
+        background-color: rgba(255, 255, 255, 0.313);
+        border-radius: 150px
+    }
+    .submenu >li {
+        // display: none;
+        h2 {
+            font-size: 20px;
+            @include intermedio {
+                font-size: 16px;
+                text-transform: capitalize;
+            }
+        }
+        h3 {
+            font-size: 16px;
+        }
+        p {
+            font-size: 12px;
+            margin: 0;
+        }
+
+    }
+    .menu.mostrar {
+        @include intermedio {
+            z-index: 4444;
+            height: calc(100vh - 50px);
+            
+        }
+    }
+    .menu {
+        .chevron {
+            i {
+                display: none;
+                transition: 0.3s;
+            @include intermedio {
+                display: block;
+                }
+        
+            }
+        }
+            
+        > li {
+            padding: 7px 11px;
+            @include intermedio {
+                border-bottom: 1px solid white;
+                width: 100%;
+                padding: 0 20px;
+            }
+          
+
+            p {
+                @include intermedio {
+                    // text-align: center;
+                    font-size: 20px;
+                }
+            }
+        }
+       
+        @include intermedio {
+            position: absolute;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 100%;
+            // min-height: calc(100vh - 50px);
+            background-color: black;
+            top: 50px;
+            left: 0;
+            z-index: 8888888;
+            height: 0;
+            overflow: hidden;
+            padding: 0;
+            transition: 0.3s;
+        }
+        li {
+            padding-bottom: 15px;
+            
+        }
+        > li.activo .submenu {
+            background-color: rgba(255, 255, 255, 0.646);
+            padding: 20px 70px;
+            display: flex;
+            z-index: 55555;
+            height: fit-content;
+            @include intermedio {
+                color: white;
+                position: initial;
+                background-color: transparent;
+                flex-direction: column;
+                height: 100%;
+                padding: 20px 0;
+            }
+            li > *:not(h2) {
+                @include intermedio {
+                    display:  none;
+                }
+            }
+        }
+        > li.activo {
+            border-bottom: 4px solid black;
+            .chevron i {
+                transform: rotate(180deg);
+
+            }
+            
+        }
+        p {
+            margin: 0;
+        }
+        .submenu {
+            position: absolute;
+            top: 100%;
+            left:0;
+            width: 100%;
+            margin: 0;
+            display: none;
+            height: 0;
+            overflow: hidden;
+            padding: 0;
+            z-index: 5555;
+            transition: 0.3s;
+            @include intermedio {
+                display: flex;
+            }
+        }
+    }
+    .negro {
+        display: none;
+        
+    }
+    div{
+        flex: 1;
+    }
+    img {
+        max-width: 127px;
+        padding: 15px 20px;
+        
+        cursor: pointer;
+    }
+    ul {
+        list-style: none;  
+        margin: 0;
+        padding: 15px 20px 0 20px;
+        
+    }
+    li {
+        margin: 0 10px;
+        color: white;
+        // font-family: buch;
+        font-family: halbfett;
+        cursor: pointer;
+         
+    }
+}
+nav.activo {
+    background-color: rgba(255, 255, 255, 0.646); 
+    border-bottom: 1px solid black; 
+    li {
+        color: black;
+        @include intermedio {
+            color: white;
+        }
+    }
+    .negro {
+        display: block;
+        @include intermedio {
+            display: none;
+        }
+    }
+    .logo{
+        display: none;
+    }
+    @include intermedio {
+
+    }
+} 
+
+.submenu .activo {
+    display: block;
+}
+.camaras {
+    li {
+        flex: 1;
+    }
+   
+}
+.mostrar {
+    position: relative;
+    height: 100px;
+    img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        transition: 0.5s;
+    }
+}
+.esconder {
+    opacity: 0;
+}
+.mini {
+    
+    img {
+        width: 80px;
+        
+    }
+    
+}
+.mini:hover p{
+    text-decoration:underline ;
+}
